@@ -1,14 +1,24 @@
+POST {{host}}/register
+Content-Type: application/json
+
+{
+  "name": "Ruben Vitt",
+  "email": "dev@rubeen.dev",
+  "password": "password"
+}
+
+###
 POST {{host}}/auth/login
 Content-Type: application/json
 
 {
-  "username": "rubeen",
+  "username": "dev@rubeen.dev",
   "password": "password"
 }
 
 ###
 GET {{host}}/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJ1YmVlbiIsInN1YiI6MSwiaWF0IjoxNjAxNjQ0NzQ2LCJleHAiOjE2MDE2NDQ4MDZ9.t2SVUWC4415yzxIqxgNCeCbsRHK9xY-saGeJ84B9XdA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldkBydWJlZW4uZGV2Iiwic3ViIjoiNWY3OTc3OGRiZmQyMDhiN2EyZjBhODRjIiwiaWF0IjoxNjAyMDk0NjM5LCJleHAiOjE2MDIwOTQ2OTl9.4FrMQIRfclCIir7og4GLx0ZHGozqIoc9-lvPyz62J2E
 
 ###
 GET {{host}}/profile
