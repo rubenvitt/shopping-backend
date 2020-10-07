@@ -5,6 +5,6 @@ import { checkEnvironmentVariables } from './security/variable-checks';
 async function bootstrap() {
   checkEnvironmentVariables();
   const app = await NestFactory.create(AppModule);
-  await app.listen(3000);
+  await app.listen(process.env.PORT || 3000);
 }
 bootstrap();

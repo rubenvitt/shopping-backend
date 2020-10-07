@@ -34,3 +34,4 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 /dev/shopping-backend-db/dbdata
+/http-client.private.env.json
