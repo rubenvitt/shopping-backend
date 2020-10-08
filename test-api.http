@@ -18,7 +18,7 @@ Content-Type: application/json
 
 ###
 GET {{host}}/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldkBydWJlZW4uZGV2Iiwic3ViIjoiNWY3ZTIzMjlmZGUwNzkwMDIzZTg1MDhlIiwiaWF0IjoxNjAyMTYxOTM5LCJleHAiOjE2MDIxNjE5OTl9.iAEO8l8thMhXupxl6YCjAU3zfZHWu0vJiqJsp3Rzt30
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldkBydWJlZW4uZGV2Iiwic3ViIjoiNWY3ZTIzMjlmZGUwNzkwMDIzZTg1MDhlIiwiaWF0IjoxNjAyMTY0MTU2LCJleHAiOjE2MDIxNjc3NTZ9.h_Ya_iSm4uUA8iQcdIGs_8rqIOqoGbt1jMQVn1Y7SVc
 
 ###
 GET {{host}}/profile
