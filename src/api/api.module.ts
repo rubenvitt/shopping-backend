@@ -6,7 +6,7 @@ import {RouterModule, Routes} from "nest-router";
 
 const routes: Routes = [
     {
-        path: '/api/shopping-list',
+        path: '/api/shopping-lists',
         module: ShoppingListModule
     }
 ]
