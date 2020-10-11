@@ -18,8 +18,17 @@ Content-Type: application/json
 
 ###
 GET {{host}}/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldkBydWJlZW4uZGV2Iiwic3ViIjoiNWY3ZTIzMjlmZGUwNzkwMDIzZTg1MDhlIiwiaWF0IjoxNjAyMTY0MTU2LCJleHAiOjE2MDIxNjc3NTZ9.h_Ya_iSm4uUA8iQcdIGs_8rqIOqoGbt1jMQVn1Y7SVc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldkBydWJlZW4uZGV2Iiwic3ViIjoiNWY4MmFmMGUzOGM2MjU1ODdhNDQ5NTA4IiwiaWF0IjoxNjAyNDAwMDI2LCJleHAiOjE2MDI0MDM2MjZ9.vZK3uTK-BZ1jR3qfWjW0IkL51siIkPgdXmiHlQ88X2k
 
 ###
-GET {{host}}/profile
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFsaXNhIiwic3ViIjoyLCJpYXQiOjE2MDE2NDQ3NzAsImV4cCI6MTYwMTY0NDgzMH0.PkFxIvq2Owjagzjrt-aB8y3BGLSgycGxuLJMEBRSxOQ
+GET {{host}}/api/shopping-lists
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldkBydWJlZW4uZGV2Iiwic3ViIjoiNWY4MmFmMGUzOGM2MjU1ODdhNDQ5NTA4IiwiaWF0IjoxNjAyNDAwMDI2LCJleHAiOjE2MDI0MDM2MjZ9.vZK3uTK-BZ1jR3qfWjW0IkL51siIkPgdXmiHlQ88X2k
+
+###
+POST {{host}}/api/shopping-lists/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRldkBydWJlZW4uZGV2Iiwic3ViIjoiNWY4MmFmMGUzOGM2MjU1ODdhNDQ5NTA4IiwiaWF0IjoxNjAyNDAwMDI2LCJleHAiOjE2MDI0MDM2MjZ9.vZK3uTK-BZ1jR3qfWjW0IkL51siIkPgdXmiHlQ88X2k
+Content-Type: application/json
+
+{
+  "name": "Testliste"
+}
